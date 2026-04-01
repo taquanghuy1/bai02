@@ -1,14 +1,18 @@
-body{
-  
+/* Vùng 1: Header */
+header {
+  background-color: #808080; /* xám */
+  color: white;
 }
 
-
-/* Header **/
-header{
- 
+/* chữ menu */
+header a {
+  color: white;
 }
 
-footer{
-  
+/* Vùng 4: Footer */
+footer {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
-
