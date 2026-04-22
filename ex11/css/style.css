@@ -1,83 +1,92 @@
-@media (max-width: 768px) {
+@media(max-width: 768px){
 
-    .container {
-        width: 95%;
+    /* Container rộng full */
+    .container{
+        width:90%;
     }
 
     /* Header */
-    header {
-        text-align: center;
-        padding: 15px 0;
+    header{
+        text-align:center;
+        padding-bottom:20px;
     }
 
     header #branding,
-    header nav {
-        float: none;
-        width: 100%;
+    header nav{
+        float:none;
     }
 
-    header nav ul {
-        padding-top: 10px;
+    header nav ul{
+        margin-top:10px;
     }
 
-    header nav li {
-        display: block;
-        padding: 10px 0;
+    header nav li{
+        float:none;
+        display:block;
+        padding:10px 0;
     }
 
-    /* Showcase */
-    #showcase {
-        min-height: 250px;
-        padding: 20px;
+    /* Showcase giống hình */
+    #showcase{
+        padding:40px 20px;
+        min-height:auto;
+        background: linear-gradient(rgba(53,66,74,0.9), rgba(53,66,74,0.9)),
+                    url('https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg');
+        background-size:cover;
+        background-position:center;
     }
 
-    #showcase h1 {
-        font-size: 28px;
-        margin-top: 30px;
+    #showcase h1{
+        font-size:32px;
+        margin-top:20px;
     }
 
-    #showcase p {
-        font-size: 16px;
+    #showcase p{
+        font-size:16px;
     }
 
-    /* Newsletter */
-    #newsletter h1,
-    #newsletter form {
-        float: none;
-        text-align: center;
-        width: 100%;
+    /* Newsletter - CĂN GIỮA NHƯ HÌNH */
+    #newsletter{
+        text-align:center;
+        padding:40px 20px;
     }
 
-    #newsletter input[type="email"] {
-        width: 100%;
-        margin-bottom: 10px;
+    #newsletter h1{
+        float:none;
+        margin-bottom:20px;
+        font-size:22px;
     }
 
-    .button_1 {
-        width: 100%;
+    #newsletter form{
+        float:none;
+    }
+
+    #newsletter input[type="email"]{
+        width:100%;
+        max-width:300px;
+        height:40px;
+        padding:10px;
+        margin-bottom:10px;
+        border:none;
+    }
+
+    .button_1{
+        width:150px;
+        height:40px;
+        background:#e8491d;
     }
 
     /* Boxes */
-    #boxes .box {
-        float: none;
-        width: 100%;
-        margin-bottom: 15px;
+    #boxes .box{
+        float:none;
+        width:100%;
+        margin-bottom:20px;
     }
 
-    /* Main + Sidebar */
+    /* Layout */
     article#main-col,
-    aside#sidebar {
-        float: none;
-        width: 100%;
-    }
-
-    /* Services */
-    ul#services li {
-        padding: 15px;
-    }
-
-    /* Footer */
-    footer {
-        font-size: 14px;
+    aside#sidebar{
+        float:none;
+        width:100%;
     }
 }
