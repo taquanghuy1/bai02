@@ -1,148 +1,83 @@
-body{
-  
+@media (max-width: 768px) {
 
+    .container {
+        width: 95%;
+    }
+
+    /* Header */
+    header {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    header #branding,
+    header nav {
+        float: none;
+        width: 100%;
+    }
+
+    header nav ul {
+        padding-top: 10px;
+    }
+
+    header nav li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    /* Showcase */
+    #showcase {
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    #showcase h1 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    #showcase p {
+        font-size: 16px;
+    }
+
+    /* Newsletter */
+    #newsletter h1,
+    #newsletter form {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #newsletter input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .button_1 {
+        width: 100%;
+    }
+
+    /* Boxes */
+    #boxes .box {
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Main + Sidebar */
+    article#main-col,
+    aside#sidebar {
+        float: none;
+        width: 100%;
+    }
+
+    /* Services */
+    ul#services li {
+        padding: 15px;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 14px;
+    }
 }
-
-/* Global */
-.container{
-  
-
-}
-
-ul{
-  
-
-}
-
-.button_1{
-  
-
-}
-
-.dark{
-  
-
-}
-
-/* Header **/
-header{
-  
-
-}
-
-header a{
- 
-
-}
-
-header li{
-  
-
-}
-
-header #branding{
-  
-
-}
-
-header #branding h1{
- 
-
-}
-
-header nav{
- 
-
-}
-
-header .highlight, header .current a{
-  
-
-}
-
-header a:hover{
-  
-
-}
-
-/* Showcase */
-#showcase{
-  
-
-}
-
-#showcase h1{
-  
-
-}
-
-#showcase p{
-  
-
-}
-
-/* Newsletter */
-#newsletter{
-  
-
-}
-
-#newsletter h1{
- 
-
-}
-
-#newsletter form {
- 
-
-}
-
-#newsletter input[type="email"]{
-  
-
-}
-
-/* Boxes */
-#boxes{
-  
-
-}
-
-#boxes .box{
-  
-
-}
-
-#boxes .box img{
- 
-
-}
-
-/* Sidebar */
-aside#sidebar{
-  
-
-}
-
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-  
-
-}
-
-/* Main-col */
-article#main-col{
-  
-
-}
-
-/* Services */
-ul#services li{
-  
-
-}
-
-footer{
-  
-
-}
-
