@@ -7,32 +7,34 @@ body {
 
 /* HEADER */
 header {
-    background: #2f3e46;
+    background: linear-gradient(to right, #2f3e46, #3f4f57);
     color: #fff;
     text-align: center;
-    padding: 30px 15px;
+    padding: 40px 20px 20px;
     border-bottom: 3px solid #ff4d1c;
 }
 
 header h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 32px;
+    line-height: 1.3;
 }
 
-header span {
+header h1 span {
     color: #ff4d1c;
 }
 
 /* MENU */
 nav {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 nav a {
-    color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    color: #fff;
+    margin: 0 15px;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 
 nav a.active {
@@ -40,20 +42,28 @@ nav a.active {
     font-weight: bold;
 }
 
+/* LINE */
+.divider {
+    height: 2px;
+    background: #ff4d1c;
+    margin-top: 20px;
+}
+
 /* NEWSLETTER */
 #newsletter {
     background: linear-gradient(to right, #2f3e46, #3f4f57);
     color: #fff;
     text-align: center;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
 #newsletter h2 {
     font-size: 22px;
-    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
 }
 
-/* INPUT + BUTTON */
+/* FORM */
 #newsletter form {
     display: flex;
     flex-direction: column;
@@ -62,9 +72,11 @@ nav a.active {
 
 #newsletter input {
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
     padding: 12px;
     border: none;
+    outline: none;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
@@ -72,15 +84,16 @@ nav a.active {
     background: #ff4d1c;
     color: #fff;
     border: none;
-    padding: 12px 25px;
+    padding: 12px 30px;
+    font-size: 14px;
     cursor: pointer;
-    font-weight: bold;
 }
 
 /* SERVICES */
 #services {
-    padding: 30px 20px;
+    background: #eee;
     text-align: center;
+    padding: 30px 20px;
 }
 
 #services h2 {
@@ -89,9 +102,10 @@ nav a.active {
 
 .service-box {
     background: #fff;
-    padding: 20px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin: auto;
+    max-width: 350px;
 }
 
 /* DESKTOP */
@@ -104,14 +118,5 @@ nav a.active {
     #newsletter input {
         margin-bottom: 0;
         margin-right: 10px;
-    }
-
-    #services .container {
-        display: flex;
-        gap: 20px;
-    }
-
-    .service-box {
-        flex: 1;
     }
 }
